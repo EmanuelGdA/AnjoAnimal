@@ -1,6 +1,6 @@
 # Anjo Animal 🐾
 
-> Aplicativo de gestão e denúncia de maus-tratos a animais, desenvolvido para o Gabinete da Vereadora Andressa Bianchezi.
+> Aplicativo de gestão e denúncia de maus-tratos a animais.
 
 O **Anjo Animal** é uma solução mobile completa para modernizar o processo de fiscalização de denúncias de proteção animal. O sistema permite o registro geolocalizado, acompanhamento de casos (CRM), geração de relatórios oficiais e análise estatística.
 
