@@ -1,0 +1,61 @@
+{
+  "expo": {
+    "name": "AnjoAnimal",
+    "slug": "AnjoAnimal",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2E86C1"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.emanuel22.anjoanimal",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Precisamos da câmera para registrar fotos das denúncias.",
+        "NSPhotoLibraryUsageDescription": "Precisamos acessar a galeria para anexar fotos.",
+        "NSLocationWhenInUseUsageDescription": "Precisamos da sua localização para marcar o endereço da denúncia."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.emanuel22.anjoanimal"
+      // REMOVIDO: permissions manuais e config do googleMaps
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3a9be6d1-acab-4b76-b5cc-6fc4df289293"
+      }
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "O app precisa acessar suas fotos para anexar na denúncia.",
+          "cameraPermission": "O app precisa acessar a câmera para tirar fotos da denúncia."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Permitir que o AnjoAnimal use sua localização para registrar o endereço da denúncia?"
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/3a9be6d1-acab-4b76-b5cc-6fc4df289293"
+    }
+  }
+}
